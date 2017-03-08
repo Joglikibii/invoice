@@ -5,7 +5,8 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
 	routes: [
-		{ path: '/', component: require('./views/customer/index.vue') }
+		{ path: '/', component: require('./views/customer/index.vue') },
+		{ path: '/customer/:id', component: require('./views/customer/show.vue') }
 	]
 })
 

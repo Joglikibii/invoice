@@ -1,7 +1,7 @@
 <template>
 	<data-viewer :source="source" :thead="thead" :filter="filter" :create="create" :title="title">
 		<template scope="props">
-			<tr @click="router.push('/customer/' + props.item.id)">
+			<tr @click="$router.push('/customer/' + props.item.id)">
 				<td>{{ props.item.id }}</td>
 				<td>{{ props.item.company }}</td>
 				<td>{{ props.item.name }}</td>
