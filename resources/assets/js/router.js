@@ -8,7 +8,9 @@ const router = new VueRouter({
 		{ path: '/', component: require('./views/customer/index.vue') },
 		{ path: '/customer/create', component: require('./views/customer/form.vue') },
 		{ path: '/customer/:id/edit', component: require('./views/customer/form.vue'), meta: { mode: 'edit' }},
-		{ path: '/customer/:id', component: require('./views/customer/show.vue') }
+		{ path: '/customer/:id', component: require('./views/customer/show.vue') },
+
+		{ path: '/invoice', component: require('./views/invoice/index.vue') },
 	]
 })
 
