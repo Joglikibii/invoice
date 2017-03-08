@@ -7742,4 +7742,8 @@ button.close {
   align-items: center;
 }
 
+.pagination-input {
+  width: 45px;
+}
+
 /*# sourceMappingURL=app.css.map */
