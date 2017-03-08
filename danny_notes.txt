@@ -1,0 +1,17 @@
+danny_notes.txt
+
+Queries Ran:
+
+// All Customers
+http://invoice.app/api/customer?column=id&direction=asc&per_page=10&search_operator=equal_to&search_column=id
+
+// Customer with id = 3
+http://invoice.app/api/customer?column=id&direction=asc&per_page=10&search_operator=equal_to&search_column=id&search_query_1=3
+
+http://invoice.app/api/customer?column=id&direction=asc&per_page=10&search_operator=equal_to&search_column=id&search_query_1=10
+
+http://invoice.app/api/invoice?column=id&direction=asc&per_page=10&search_operator=equal_to&search_column=customer.id&search_query_1=10
+
+http://invoice.app/api/invoice?column=id&direction=asc&per_page=10&search_operator=like&search_column=customer.name&search_query_1=a
+
+http://invoice.app/api/invoice?column=id&direction=asc&per_page=10&search_operator=like&search_column=customer.name&search_query_1=doug
