@@ -19,7 +19,7 @@
 		data() {
 			return {
 				title: 'Customers',
-				source: '/api/customers',
+				source: '/api/customer',
 				create: '/customer/create',
 				thead: [
 					{ title: 'ID', key: 'id', sort: true },
