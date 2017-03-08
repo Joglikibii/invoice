@@ -41,7 +41,8 @@
 		data() {
 			return {
 				model: {},
-				resource: 'customer'
+				resource: 'customer',
+				redirect: '/'
 			}
 		},
 
@@ -51,7 +52,16 @@
 
 		methods: {
 			remove() {
-				//
+				var vm = this
+				axios.delete(`/api/${this.resource}/${this.$route.params.id}`)
+					.then(function(response) {
+						if(response.data.deleted) {
+							vm.$router.push(vm.redirect)
+						}
+					})
+					.catch(function(error) {
+						console.log(error)
+					})
 			},
 
 			fetchData() {
