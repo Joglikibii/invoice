@@ -1,8 +1,14 @@
 <template>
 	<div id="root">
-		<h1>Hello World</h1>
-		<a href="https://www.youtube.com/watch?v=gaoqbUvMrBs&t=27s">https://www.youtube.com/watch?v=gaoqbUvMrBs&t=27s</a>
-		<br>
-		<strong>time: </strong>29:35
+		<div class="navbar navbar-default">
+			<div class="navbar-brand">
+				<router-link to="/">Brand Name</router-link>
+			</div>
+			<ul class="nav navbar-nav navbar-left">
+				<li><router-link to="/">Customer</router-link></li>
+				<li><router-link to="/invoice">Invoice</router-link></li>
+			</ul>
+		</div>
+		<router-view></router-view>
 	</div>
 </template>
