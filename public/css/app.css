@@ -7691,4 +7691,46 @@ button.close {
   margin-top: 15px;
 }
 
+.panel-heading {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.filter {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-column {
+  -webkit-box-flex: 4;
+  flex: 4;
+  padding-right: 15px;
+}
+
+.filter-operator {
+  -webkit-box-flex: 4;
+  flex: 4;
+  padding-right: 15px;
+}
+
+.filter-input {
+  -webkit-box-flex: 6;
+  flex: 6;
+  padding-right: 15px;
+}
+
+.filter-btn {
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
 /*# sourceMappingURL=app.css.map */
