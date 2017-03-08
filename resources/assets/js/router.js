@@ -11,6 +11,7 @@ const router = new VueRouter({
 		{ path: '/customer/:id', component: require('./views/customer/show.vue') },
 
 		{ path: '/invoice', component: require('./views/invoice/index.vue') },
+		{ path: '/invoice/:id', component: require('./views/invoice/show.vue') },
 	]
 })
 
