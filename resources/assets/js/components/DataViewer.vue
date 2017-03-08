@@ -51,7 +51,7 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="panel-footer pagination-item">
+		<div class="panel-footer pagination-footer">
 			<div class="pagination-item">
 				<span>Per page: </span>
 				<select v-model="params.per_page" @change="fetchData">
