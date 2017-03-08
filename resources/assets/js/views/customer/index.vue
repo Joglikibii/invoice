@@ -31,10 +31,11 @@
 				filter: [
 					'id', 'company', 'name', 'email', 'phone', 'address'
 				]
-			},
-			components: {
-				DataViewer
 			}
+		},
+
+		components: {
+			DataViewer
 		}
 	}
 </script>
