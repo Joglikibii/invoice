@@ -7,6 +7,7 @@
 			<ul class="nav navbar-nav navbar-left">
 				<li><router-link to="/">Customer</router-link></li>
 				<li><router-link to="/invoice">Invoice</router-link></li>
+				<li><a href="https://youtu.be/gaoqbUvMrBs">https://youtu.be/gaoqbUvMrBs</a></li>
 			</ul>
 		</div>
 		<router-view></router-view>

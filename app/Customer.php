@@ -15,7 +15,7 @@ class Customer extends Model
 
 	// whitelist of filter-able columns
   protected $filter = [
-		'id', 'company', 'email', 'name', 'phone', 'address'
+		'id', 'company', 'email', 'name', 'created_at'
   ];
 
   public static function initialize()

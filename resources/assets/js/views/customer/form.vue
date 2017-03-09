@@ -38,6 +38,7 @@
 						</div>
 					</div>
 				</div>
+				<button @click="$router.push('/')" class="btn btn-danger">Cancel</button>
 				<button class="btn btn-success">Save</button>
 			</form>
 		</div>
@@ -49,6 +50,7 @@
 	import axios from 'axios'
 
 	export default {
+		name: 'CustomerForm',
 		data() {
 			return {
 				form: {},

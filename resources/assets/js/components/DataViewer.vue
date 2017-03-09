@@ -26,7 +26,7 @@
 					<input type="text" class="form-control" v-model="params.search_query_2" @keyup.enter="fetchData" placeholder="Search">
 				</div>
 				<div class="filter-btn">
-					<button class="btn btn-primary btn-sm btn-block">Filter</button>
+					<button class="btn btn-primary btn-sm btn-block" @click="fetchData">Filter</button>
 				</div>
 			</div>
 			<table class="table table-striped">
